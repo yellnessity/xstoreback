@@ -1,0 +1,241 @@
+@font-face { 
+	font-family: "San-Francisco";
+	  src: url("fonts/SF-UI-DISPLAY-MEDIUM.TTF") format("truetype");
+}
+
+@font-face {
+	font-family: "San-Francisco-Bold";
+	  src: url("fonts/SF-UI-DISPLAY-HEAVY.TTF") format("truetype");
+	}
+	  
+.s1
+	{
+	font-size:135px;
+	text-align:center;
+	color:black;
+	display:flex;
+	letter-spacing: -10px;
+	font-weight: bold;
+	z-index:1;
+	margin-left: 80px;
+	}
+
+.s2
+	{
+	display:flex;
+	font-size:50px;
+	text-align:center;
+	color:black;
+	letter-spacing: -2px;
+	z-index:1;
+	margin-top:120px;
+	margin-right:150px;
+	}
+
+.s3 {
+	position:absolute;
+	z-index:0;
+	}
+
+.s4 {
+	font-size:25px;
+	display:flex;
+	justify-content: space-around;
+	margin-top: 5px;
+}
+
+.s5 {
+	font-size:25px;
+}
+
+.s6 {
+	text-align: center;
+	}
+
+.s7 {
+	list-style-position:inside;
+	text-align: center;
+	}
+
+a { color: black; }
+
+section {
+	font-family:San-Francisco;
+	display:grid;
+ 	grid-template-rows: auto;
+	grid-template-areas:   "iX"
+
+                       "i8+"
+
+                       "i8";
+	grid-auto-flow: row;
+} 
+
+.itemX { 
+display: none;
+}
+
+.itemX1 {
+  text-align: center;
+  font-size: 50px;
+  grid-row: 1;
+}
+
+.itemX1:hover {
+background: #00CC99;
+color:white;
+cursor: default;
+transition-duration: .5s;
+transition-timing-function: linear;
+}
+
+.itemX1:hover + div{
+display: block;
+text-align:center;
+grid-row: 1;
+background: #00CC99;
+}
+
+.item8p { 
+display: none;
+}
+
+.item8pp {
+  grid-row: 2;
+  text-align: center;
+  font-size: 50px;
+}
+
+.item8pp:hover {
+background: #00FF66;
+color:white;
+cursor: default;
+transition-duration: .5s;
+transition-timing-function: linear;
+}
+
+.item8pp:hover + div{
+display: block;
+text-align:center;
+grid-row: 2;
+background: #00FF66;
+}
+
+
+.item8 { 
+display: none;
+}
+
+.item81 {
+  text-align: center;
+  font-size: 50px;
+  grid-row: 3;
+}
+
+.item81:hover {
+background: #CCFF00;
+color:white;
+cursor: default;
+transition-duration: .5s;
+transition-timing-function: linear;
+}
+
+.item81:hover + div{
+display: block;
+text-align:center;
+grid-row: 3;
+background: #CCFF00;
+transition-duration: .5s;
+}
+
+marquee { 
+background: red;
+font-family:Helvetica;
+}
+
+body {
+	padding:0
+	margin:0
+}
+
+header {
+	display:flex;
+	font-family:Helvetica;
+	width: 1200px;
+	height: 650px;
+	background-color: white;
+	align-items:center;
+}
+
+header:hover {
+color:white;
+} 
+
+nav {
+	background-color:#CCCCCC;
+	font-family:san-francisco;
+	width: 1360px;
+	height: 50px;
+	align-items:center;
+}
+
+nav ul a
+{
+	color:black;
+}
+
+nav ul a:hover
+{
+	color:white;
+}
+
+footer
+{
+	background-color: grey;
+	text-align: center;
+	font-size: 12px;
+	display: block;	
+	font-family: san-francisco;
+	margin-top: 10px;
+}
+
+.im
+{
+	text-align: center;
+}
+
+section table
+{
+	align: center;
+	cellpadding: 10;
+	rules: rows;
+	width: 1360;
+}
+
+table th
+{
+	text-align:center;
+	 background-color: grey; 
+	colspan: 2;
+}
+
+tr td p {
+	text-align: center;
+}
+
+.bold {
+	font-weight: bold;
+	white-space: nowrap;
+	width: 100%;
+	display: block;
+	overflow: hidden;
+}
+body article {
+	font-family:San-Francisco;
+}
+
+.avatar { border: 1px solid black;  }
+
+
+
+
