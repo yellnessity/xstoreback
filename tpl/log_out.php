@@ -1,0 +1,1 @@
+ Вы вышли из системы.<a href='index.php?action=log_in#show'>Войти</a>
